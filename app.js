@@ -107,7 +107,7 @@ client.on('message', function (message) {
               && message.member.roles.some(r=>["ANGELA", "Pelanggan Setia"].includes(r.name))
               ) {
         simsimi.listen(message.content, function (err, msg) {
-            if (errreturn message.reply('tolong perbarui tokennya');
+            if (errreturn message.reply('key sudah expire');
             console.log('simsimi say : ', msg);
             message.reply(msg.replace(/simi/g, 'angela').replace(/kakak/g, 'kak ' + message.author.username).replace(/kamu/g, 'kakak ' + message.author.username).replace(/simsimi/g, 'angela');
   });
