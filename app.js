@@ -109,7 +109,7 @@ client.on('message', function (message) {
         simsimi.listen(message.content, function (err, msg) {
             if (err) return message.reply('key sudah expire');
             console.log('simsimi say : ', msg);
-            message.reply(msg.replace(/simi/g, 'angela').replace(/kakak/g, 'kak ' + message.author.username).replace(/kamu/g, 'kakak ' + message.author.username).replace(/simsimi/g, 'angela');
+            message.reply(msg.replace(/simi/g, 'angela').replace(/kakak/g, 'kak ' + message.author.username).replace(/kamu/g, 'kakak ' + message.author.username).replace(/simsimi/g, 'angela'));
   });
     }
 });
