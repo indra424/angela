@@ -3,9 +3,7 @@ const client = new Discord.Client();
 const Simsimi = require('simsimi');
 const {
     token,
-    channelChatbotId,
-    kyura,
-    predator
+    channelChatbotId
 } = require('./config.json');
 var simsimi = new Simsimi({
         lc : process.env.LC_SIMI,
